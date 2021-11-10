@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 10%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    border: 1px red solid;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+.messages{
+    background-color: salmon;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    overflow-y: scroll;
+    height: 90%;
+}
+.messages::-webkit-scrollbar{
+    display: none;
+}
+.send-msg{
+    background-color: seagreen;
+    height: 10%;
+}
